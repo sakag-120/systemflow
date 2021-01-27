@@ -1,1 +1,119 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T00:36:45.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" version="14.2.7" etag="yuDRAagEgRJpOHAa-ao2" type="github"><diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">7ZjbctowEIafhksYH8LpEggkM22SmZK218JabDWy5MoCQ56+K1uObZzSZJqUdIYrW7/W2tWu9rOh48/i3ZUiSXQjKfCO59Bdx7/seJ7reT5ejLIvlNHQLYRQMWqNKmHJHsGKjlU3jELaMNRScs2SphhIISDQDY0oJbOm2VrypteEhNASlgHhbfU7ozqyu/CGlX4NLIxKz+5gXMzEpDS2O0kjQmVWk/x5x58pKXVxF+9mwE3yyrwUzy1+M/sUmAKhX/IAvd3tbz8Ng+Fo9TnbphRurvtd1y6zJXxjd3ynwiAiStuo9b5MRZqxmBOBo2mkY46ii7epRltbN4wA56Rij1JoUloEZsAEqPt9Yqy0ArNGyElqimOeae+ljAuUhl1Nsnu7AhmDVns0sbMXNs3lObPDrCrasDxTUa1g3tiKxB6U8GnlKpd4Y9OZD7+moO5WP8xx8xxOVsCLRzteX5AY8NLxBhwdTFcK70Kd77BQWCOng58bU35MEZeq40/yNiD7aqJ6vJ/IlGkmRW15jIsdOmi7JGbLCtYNjzFhXMvcZR/MoFj2wO28mHnyRqq1Tc7y3eZbv4c0NX5uGOegbDnLgHOL2eKukLkMSCXfrdcswJQ5tuBFLPkUrn3hwI7ECYdeIGO7KicBRNjGoJqtzZl4KIRIa0OHiamft8iyrEcVyXpMFobHG8KrnTLbQbUesNWesrjgRtNVQIXfY3je10xgfEXQC0o0MZVCPcXrBk9Pl2xRVGkXY1/0jc9cTrs+BjDqJSJEH1nENCwT3C46yhCvzcZTcoNOqO2gejeZBruRW2ZWyU2NsMCUVUq74Y7j4cVt6A2afdhv96E7eqYPh69vQxzWOvE10PNb0GvBDgSdmNcHjlZ4Yh/uI4YndorygvGyBGskm0Wfa8ZA8d1h1wC+ktm8Eqa5gBMmlywwdDwo4StrksqNCuCPRxnfl0SFcHTFC9t7tPEubNdYAcfW3TZfjWdw/g045zQjihpySqVYaqJss3OqiMhtiEDsqKMc9T4IRy9OylHXeTuUNsnZguu7ofTgi8Z95pPmWZSO/iVK+2eUNgwHZ5SeDKVbgoE53/C3m36OotdfULpkCnMmjzO0fB+emqGDkzJ03PX+d4Qefo1+TIYOzwxtGI7ODD0VQye8+AZ1LqWQOU/bHF3uUw0IE2dCYyaOgtT/ICAdnRSkb4LR9/vMHJ+UkShV/4Hm5rV/kv35Lw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-27T01:10:43.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="H_zNRBVjr-1N5NUTeXpS" version="14.2.7" type="github">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="1422" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-11" value="受注番号" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VqYvgj8XHTMHite8UlfJ-1" target="VqYvgj8XHTMHite8UlfJ-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-17" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;複数ファイルpdf場所&lt;/span&gt;&#xa;&#xa;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VqYvgj8XHTMHite8UlfJ-1" target="VqYvgj8XHTMHite8UlfJ-15">
+          <mxGeometry x="-0.3385" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="230" />
+              <mxPoint x="940" y="230" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-1" value="pdfデータ探索&lt;br&gt;＋&lt;br&gt;ファイル名から&lt;br&gt;受注番号抽出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-2" value="" style="image;html=1;image=img/lib/clip_art/general/Empty_Folder_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-8" value="フォルダ名&lt;br&gt;ファイル名" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VqYvgj8XHTMHite8UlfJ-3" target="VqYvgj8XHTMHite8UlfJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-3" value="\\Tj-gijfsv1&lt;br&gt;&amp;nbsp; L10_受注仕様書関係&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;・&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;・&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; L140801-141000&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; L141001-141200&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; L176400-176599&lt;br&gt;　　　L174000_08.pdf&lt;br&gt;　　　L174000_09.pdf&lt;br&gt;　　　L174001_10.pdf&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;・&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;・&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;・&lt;br&gt;&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="130" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-4" value="②データ移行プログラム" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-5" value="③データ登録プログラム（新運用）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-16" value="登録ID" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VqYvgj8XHTMHite8UlfJ-12" target="VqYvgj8XHTMHite8UlfJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-12" value="受注BOM探索&lt;br&gt;登録FID特定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VqYvgj8XHTMHite8UlfJ-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-15" value="ファイル登録" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-18" value="①事前BOM吊り下げプログラム" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-180" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-23" value="発注済み仕様書&lt;br&gt;アイテム&lt;br&gt;BOM登録" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VqYvgj8XHTMHite8UlfJ-19" target="VqYvgj8XHTMHite8UlfJ-12">
+          <mxGeometry x="0.5422" relative="1" as="geometry">
+            <mxPoint x="610" y="-40" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-19" value="採番＋BOM吊り下げプログラム" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-20" value="複数の受注番号" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VqYvgj8XHTMHite8UlfJ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="-40" as="sourcePoint" />
+            <mxPoint x="190" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-24" value="けんたろう移行プログラムと同期&lt;br&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-160" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-28" value="FullWEBデータ移行完了" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="115" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-37" value="登録ID&lt;br&gt;複数ファイルPDF場所" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VqYvgj8XHTMHite8UlfJ-30" target="VqYvgj8XHTMHite8UlfJ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-30" value="採番＋BOM吊り下げ&lt;br&gt;登録PDF選択&lt;br&gt;プログラム" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-31" value="受注番号&lt;br&gt;ファイル名＋場所" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="430" as="sourcePoint" />
+            <mxPoint x="309" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="259" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-32" value="既にアイテムがある場合は採番＋登録しない" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-36" value="ファイル登録" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="430" as="targetPoint" />
+            <mxPoint x="740" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-39" value="FullWEBデータ登録完了" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-40" value="" style="image;html=1;image=img/lib/clip_art/general/Empty_Folder_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="520" y="565" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VqYvgj8XHTMHite8UlfJ-41" target="VqYvgj8XHTMHite8UlfJ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqYvgj8XHTMHite8UlfJ-41" value="\\Tj-gijfsv1&lt;br&gt;&amp;nbsp; L10_受注仕様書関係&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;・&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;・&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; L140801-141000&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; L141001-141200&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; L176400-176599&lt;br&gt;　　　L20210126141006175.pdf&lt;br&gt;　　　L20210125134252107.pdf" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="510" width="185" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
