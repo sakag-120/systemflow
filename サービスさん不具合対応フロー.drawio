@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-12T06:40:43.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="FnXcyxraN_6idWvar7O4" version="14.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-12T06:46:13.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="nco_f3oTJX-Hsi7lhW1k" version="14.3.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1673" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -147,7 +147,7 @@
         <mxCell id="z5nzv6D3eItYVxrzep7x-70" value="修理伝票作成" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-14">
           <mxGeometry x="1180" y="150" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="z5nzv6D3eItYVxrzep7x-14" target="z5nzv6D3eItYVxrzep7x-70">
+        <mxCell id="z5nzv6D3eItYVxrzep7x-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="z5nzv6D3eItYVxrzep7x-14" target="z5nzv6D3eItYVxrzep7x-70" source="z5nzv6D3eItYVxrzep7x-29">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1220" y="100" as="sourcePoint" />
           </mxGeometry>
