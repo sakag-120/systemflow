@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T06:05:45.316Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="k21H8XRxZ-JqH2j56fB1" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-22T06:06:37.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="Gap3oh39kaeFlRV6BZDr" version="14.4.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="3197" dy="2492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3671" dy="2757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-19" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;swimlaneFillColor=none;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="120" y="120" width="2280" height="890" as="geometry" />
+          <mxGeometry x="120" y="120" width="2280" height="930" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-20" value="サービス・管理（工場長）" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" width="2260" height="260" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry x="400" y="40" width="120" height="108" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="支店・営業" style="swimlane;html=1;startSize=20;horizontal=0;strokeColor=none;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="260" width="2260" height="630" as="geometry" />
+          <mxGeometry x="20" y="260" width="2260" height="670" as="geometry" />
         </mxCell>
         <mxCell id="EkoDnE93ibO1WMqdiC40-5" value="車番調査" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="40" y="175" width="80" height="60" as="geometry" />
@@ -55,6 +55,9 @@
         </mxCell>
         <mxCell id="FLFnpMw3MmitnRIGWcoV-2" value="As-Is-3&lt;br&gt;ID:15&lt;br&gt;不具合&lt;br&gt;回答書受領" style="ellipse;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="1480" y="80" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-22" value="&lt;span&gt;As-Is-4の&lt;/span&gt;&lt;br&gt;&lt;span&gt;ID：1&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;保証請求伝票&lt;/div&gt;&lt;div&gt;の作成&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="2050" y="590" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-14" value="サービスさん" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="-440" width="2260" height="560" as="geometry" />
@@ -172,8 +175,10 @@
         <mxCell id="5hORHY0Bwvzyk7AXpnxr-21" value="As-Is-2の&lt;br&gt;ID：8&lt;br&gt;代替品の受取" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-14">
           <mxGeometry x="1080" y="350" width="120" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dNxyNK7c78bLwvsdeMH5-34" target="dNxyNK7c78bLwvsdeMH5-30" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="z5nzv6D3eItYVxrzep7x-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dNxyNK7c78bLwvsdeMH5-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="970" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-65" value="回答書が来る前に対応が必要な場合" style="swimlane;html=1;startSize=210;horizontal=0;direction=south;" parent="1" vertex="1">
           <mxGeometry x="140" y="-650" width="2260" height="2600" as="geometry" />
@@ -208,11 +213,11 @@
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="支店・経理" style="swimlane;html=1;startSize=20;horizontal=0;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
           <mxGeometry y="1590" width="2260" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-30" value="伝票処理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
-          <mxGeometry x="1200" y="30" width="80" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="EkoDnE93ibO1WMqdiC40-69" value="部品サービス課が毎日、ピッキングリストを作り、出庫し、配送している" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
           <mxGeometry x="1010" y="-40" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-23" value="&lt;span&gt;As-Is-4の&lt;/span&gt;&lt;br&gt;&lt;span&gt;ID：1&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;保証請求伝票&lt;/div&gt;&lt;div&gt;の作成&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry x="1180" y="30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-32" value="作業方法を判断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
           <mxGeometry x="1466" y="220" width="130" height="20" as="geometry" />
@@ -240,8 +245,10 @@
         <mxCell id="z5nzv6D3eItYVxrzep7x-70" value="修理伝票作成" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
           <mxGeometry x="2070" y="360" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="z5nzv6D3eItYVxrzep7x-65" source="z5nzv6D3eItYVxrzep7x-70" target="z5nzv6D3eItYVxrzep7x-69" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="z5nzv6D3eItYVxrzep7x-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="z5nzv6D3eItYVxrzep7x-65" source="z5nzv6D3eItYVxrzep7x-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2110" y="1618" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="z5nzv6D3eItYVxrzep7x-65" source="z5nzv6D3eItYVxrzep7x-7" target="z5nzv6D3eItYVxrzep7x-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -264,9 +271,6 @@
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-8" value="代替品受け取り" style="rounded=0;whiteSpace=wrap;html=1;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
           <mxGeometry x="1640" y="1125" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-69" value="伝票処理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
-          <mxGeometry x="2070" y="1618" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-67" value="回答書が来た後対応する場合" style="swimlane;html=1;startSize=210;horizontal=0;direction=south;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
           <mxGeometry x="1480" width="780" height="2600" as="geometry" />
