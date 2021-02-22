@@ -1,89 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T10:27:54.480Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="ee3pv288fgFeTpkkD3ab" version="14.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-22T01:39:35.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="6pI-5f-oX-UGsX2atuoa" version="14.4.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="3555" dy="3154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3197" dy="2492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-19" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;swimlaneFillColor=none;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="120" y="120" width="2180" height="890" as="geometry" />
+          <mxGeometry x="120" y="120" width="2280" height="890" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-20" value="サービス・管理（工場長）" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" width="2160" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-7" value="修理作業準備&lt;br&gt;日程調整&lt;br&gt;道具調整&lt;br&gt;修理対応内容" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
-          <mxGeometry x="1450" y="30" width="80" height="60" as="geometry" />
+          <mxGeometry x="20" width="2260" height="260" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-37" value="修理内容&lt;br&gt;質問対応" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
           <mxGeometry x="970" y="110" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-56" value="支店でFullWEBを使いながら調べる場合もあるが、&lt;br&gt;そのまま写真を送る場合もある。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
-          <mxGeometry x="400" y="130" width="120" height="108" as="geometry" />
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-3" value="お客様の作業道具なので、基本即時対応" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0.08;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+          <mxGeometry x="80" y="90" width="120" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-19" source="z5nzv6D3eItYVxrzep7x-8" target="z5nzv6D3eItYVxrzep7x-7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1610" y="130" />
-              <mxPoint x="1510" y="130" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FLFnpMw3MmitnRIGWcoV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dNxyNK7c78bLwvsdeMH5-19" source="FLFnpMw3MmitnRIGWcoV-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1510" y="90" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-20" value="Ass図面の子部品（未採番）だったりするので、新規品番の場合がある。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+          <mxGeometry x="400" y="40" width="120" height="108" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="支店・営業" style="swimlane;html=1;startSize=20;horizontal=0;strokeColor=none;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="260" width="2160" height="630" as="geometry" />
+          <mxGeometry x="20" y="260" width="2260" height="630" as="geometry" />
         </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.231;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="dNxyNK7c78bLwvsdeMH5-21" source="dNxyNK7c78bLwvsdeMH5-23" target="z5nzv6D3eItYVxrzep7x-51" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-23" value="As-Is-1の&lt;br&gt;顧客からのメール＋電話" style="ellipse;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
-          <mxGeometry x="20" y="460" width="120" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="FLFnpMw3MmitnRIGWcoV-2" value="不具合&lt;br&gt;回答受領" style="ellipse;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
-          <mxGeometry x="1460" y="40" width="60" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-8" value="代替品受け取り" style="rounded=0;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
-          <mxGeometry x="1540" y="95" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-47" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
-          <mxGeometry x="70" y="330" width="20" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-49" value="すぐに対応が必要" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
-          <mxGeometry x="60" y="310" width="151" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-50" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
-          <mxGeometry y="300" width="130" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-51" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
-          <mxGeometry x="50" y="350" width="130" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-21" source="z5nzv6D3eItYVxrzep7x-47" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="345.00000000000045" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-1" value="詳しくは聞いてません。" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
-          <mxGeometry x="200" y="310" width="80" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-3" value="受け手は窓口の方だったり、営業さんだったり、サービスさんだったりする。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
-          <mxGeometry x="60" y="379" width="120" height="108" as="geometry" />
-        </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-5" value="車番調査" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-5" value="車番調査" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="40" y="175" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-6" value="" style="endArrow=classic;html=1;exitX=0.121;exitY=1.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="z5nzv6D3eItYVxrzep7x-49" target="EkoDnE93ibO1WMqdiC40-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="880" y="300" as="sourcePoint" />
-            <mxPoint x="930" y="250" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-132" value="発注依頼" style="whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="850" y="110" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="EkoDnE93ibO1WMqdiC40-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-21" target="EkoDnE93ibO1WMqdiC40-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="80" y="1715.7142857142858" as="sourcePoint" />
+            <mxPoint x="80" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-2" value="受け手は窓口の方だったり、営業さんだったり、サービスさんだったりする。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0.08;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="110" y="45" width="120" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="EkoDnE93ibO1WMqdiC40-41" target="z5nzv6D3eItYVxrzep7x-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EkoDnE93ibO1WMqdiC40-41" value="品番とMCframe登録連絡" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
+          <mxGeometry x="680" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-9" value="品目マスタへの採番＋登録依頼は支店＋サービス＋購買でメール（CC)で情報共有" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="520" y="235" width="190" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-14" value="As-Is-2の&lt;br&gt;ID：1&lt;br&gt;&lt;div&gt;部品内容の確&lt;span&gt;認&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="1620" y="190" width="140" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="EkoDnE93ibO1WMqdiC40-56" value="支店でFullWEBを使いながら調べる場合もあるが、&lt;br&gt;そのまま写真を送る場合もある。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=1;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
+          <mxGeometry x="400" y="40" width="120" height="108" as="geometry" />
+        </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-14" value="サービスさん" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
-          <mxGeometry x="140" y="-440" width="2160" height="560" as="geometry" />
+          <mxGeometry x="140" y="-440" width="2260" height="560" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="z5nzv6D3eItYVxrzep7x-14" source="z5nzv6D3eItYVxrzep7x-16" target="z5nzv6D3eItYVxrzep7x-85" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -95,31 +66,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-21" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
-          <mxGeometry x="830" y="180" width="16" height="20" as="geometry" />
+          <mxGeometry x="940" y="180" width="16" height="20" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-22" value="その場で&lt;br&gt;対応できるか判断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
           <mxGeometry x="193" y="140" width="130" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="z5nzv6D3eItYVxrzep7x-14" source="z5nzv6D3eItYVxrzep7x-23" target="5hORHY0Bwvzyk7AXpnxr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-23" value="修理対応" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
           <mxGeometry x="1100" y="160" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="z5nzv6D3eItYVxrzep7x-14" source="z5nzv6D3eItYVxrzep7x-34" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1660" y="60" as="sourcePoint" />
-            <mxPoint x="1970" y="60" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-29" value="修理対応" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
-          <mxGeometry x="1970" y="30" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-32" value="作業方法を判断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
-          <mxGeometry x="1366" y="10" width="130" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-33" value="不具合か&lt;br&gt;どうかの判断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
-          <mxGeometry x="1503" y="20" width="130" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-34" value="修理作業準備" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
-          <mxGeometry x="1450" y="30" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-34" value="修理伝票作成" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
           <mxGeometry x="1200" y="270" width="80" height="60" as="geometry" />
@@ -138,19 +94,16 @@
         <mxCell id="z5nzv6D3eItYVxrzep7x-43" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
           <mxGeometry x="230" y="160" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-70" value="修理伝票作成" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
-          <mxGeometry x="1970" y="150" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="z5nzv6D3eItYVxrzep7x-14" source="z5nzv6D3eItYVxrzep7x-29" target="z5nzv6D3eItYVxrzep7x-70" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2010" y="100" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="z5nzv6D3eItYVxrzep7x-14" source="z5nzv6D3eItYVxrzep7x-85" target="z5nzv6D3eItYVxrzep7x-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-85" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
           <mxGeometry x="250" y="180" width="16" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="z5nzv6D3eItYVxrzep7x-14" source="z5nzv6D3eItYVxrzep7x-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-93" value="修理対応&lt;br&gt;段取り&lt;br&gt;日程調整" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
           <mxGeometry x="218" y="260" width="80" height="80" as="geometry" />
@@ -160,16 +113,18 @@
             <mxPoint x="258" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-96" value="不具合連絡書作成" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
-          <mxGeometry x="370" y="260" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="z5nzv6D3eItYVxrzep7x-14" source="z5nzv6D3eItYVxrzep7x-93" target="z5nzv6D3eItYVxrzep7x-96" edge="1">
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="z5nzv6D3eItYVxrzep7x-14" source="z5nzv6D3eItYVxrzep7x-93" target="5hORHY0Bwvzyk7AXpnxr-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="170" as="targetPoint" />
+            <mxPoint x="310" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="420" y="300" />
+              <mxPoint x="420" y="50" />
+              <mxPoint x="1390" y="50" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-101" value="修理作業で不明点がある" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
-          <mxGeometry x="770" y="150" width="150" height="20" as="geometry" />
+          <mxGeometry x="850" y="150" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=1;" parent="z5nzv6D3eItYVxrzep7x-14" source="z5nzv6D3eItYVxrzep7x-138" target="z5nzv6D3eItYVxrzep7x-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -177,13 +132,13 @@
         <mxCell id="z5nzv6D3eItYVxrzep7x-138" value="代替品受け取り" style="whiteSpace=wrap;html=1;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
           <mxGeometry x="1080" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-9" value="現地にサービスマンが駆け付けるだけでなく、&lt;br&gt;代理店に持ち込んだり&lt;br&gt;現車をお客様が支店にもってきたりとパターンがある" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-14">
-          <mxGeometry x="80" y="410" width="170" height="180" as="geometry" />
+        <mxCell id="EkoDnE93ibO1WMqdiC40-9" value="現地にサービスマンが駆け付けるだけでなく、&lt;br&gt;代理店に持ち込んだり&lt;br&gt;現車をお客様が支店にもってきたりとパターンがある" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
+          <mxGeometry x="80" y="390" width="270" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-14" value="原因は不具合もあれば、メンテナンス不足もある。判断はサービスマンと営業さんが下す。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-14">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-14" value="原因は不具合もあれば、メンテナンス不足もある。判断はサービスマンと営業さんが下す。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
           <mxGeometry x="70" y="-20" width="170" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="z5nzv6D3eItYVxrzep7x-14" source="EkoDnE93ibO1WMqdiC40-51" target="z5nzv6D3eItYVxrzep7x-23">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="z5nzv6D3eItYVxrzep7x-14" source="EkoDnE93ibO1WMqdiC40-51" target="z5nzv6D3eItYVxrzep7x-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="680" y="100" />
@@ -191,77 +146,140 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-51" value="日程調整" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-14">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-51" value="日程調整" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
           <mxGeometry x="640" y="260" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-13" value="支店・サービス、内容によったら、技術、品証、部品サービス課の鳥井さんにかけてくることがある。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=1;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-14">
-          <mxGeometry x="780" y="330" width="170" height="180" as="geometry" />
+        <mxCell id="EkoDnE93ibO1WMqdiC40-13" value="支店・サービス、内容によったら、技術、品証、部品サービス課の鳥井さんにかけてくることがある。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=1;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
+          <mxGeometry x="780" y="350" width="170" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="z5nzv6D3eItYVxrzep7x-14" source="5hORHY0Bwvzyk7AXpnxr-6" target="5hORHY0Bwvzyk7AXpnxr-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-6" value="不具合連絡書作成" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-14">
+          <mxGeometry x="1350" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-11" value="As-Is-1の&lt;br&gt;ID：2&lt;br&gt;Salesforce登録へ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-14">
+          <mxGeometry x="1330" y="420" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-17" value="As-Is-2の&lt;br&gt;ID：1&lt;br&gt;部品内容の確認へ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-14">
+          <mxGeometry x="480" y="270" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-18" value="As-Is-2の&lt;br&gt;ID：2&lt;br&gt;代替品の発注" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-14">
+          <mxGeometry x="460" y="447.5" width="120" height="65" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dNxyNK7c78bLwvsdeMH5-34" target="dNxyNK7c78bLwvsdeMH5-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-65" value="回答書が来る前に対応が必要な場合" style="swimlane;html=1;startSize=210;horizontal=0;direction=south;" parent="1" vertex="1">
-          <mxGeometry x="140" y="-650" width="2160" height="2000" as="geometry" />
+          <mxGeometry x="140" y="-650" width="2260" height="2600" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-57" value="サービス部品課" style="swimlane;html=1;startSize=20;horizontal=0;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
-          <mxGeometry y="1750" width="2160" height="250" as="geometry" />
+          <mxGeometry y="1749" width="2260" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-18" value="採番" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-57">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-18" value="採番" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="z5nzv6D3eItYVxrzep7x-57" vertex="1">
           <mxGeometry x="480" y="170" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="z5nzv6D3eItYVxrzep7x-57" source="EkoDnE93ibO1WMqdiC40-19" target="EkoDnE93ibO1WMqdiC40-18">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="z5nzv6D3eItYVxrzep7x-57" source="EkoDnE93ibO1WMqdiC40-19" target="EkoDnE93ibO1WMqdiC40-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-19" value="必要部品調査" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-57">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-19" value="必要部品調査" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="z5nzv6D3eItYVxrzep7x-57" vertex="1">
           <mxGeometry x="480" y="10" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-38" value="納期回答" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-57">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-38" value="納期回答" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="z5nzv6D3eItYVxrzep7x-57" vertex="1">
           <mxGeometry x="320" y="170" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-41" value="品番とMCframe登録連絡" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-57">
-          <mxGeometry x="680" y="10" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-48" value="納期連絡" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-57">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-48" value="納期連絡" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="z5nzv6D3eItYVxrzep7x-57" vertex="1">
           <mxGeometry x="800" y="10" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-58" value="支店から連絡があった修理・不具合部品は鳥井さんがなぜか見積、納期の確認窓口になっている" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-57">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-58" value="支店から連絡があった修理・不具合部品は鳥井さんがなぜか見積、納期の確認窓口になっている" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" parent="z5nzv6D3eItYVxrzep7x-57" vertex="1">
           <mxGeometry x="580" y="100" width="120" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-64" value="ピッキング&lt;br&gt;配送" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-57">
-          <mxGeometry x="1050" y="50" width="80" height="80" as="geometry" />
+        <mxCell id="EkoDnE93ibO1WMqdiC40-64" value="ピッキング&lt;br&gt;配送" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="z5nzv6D3eItYVxrzep7x-57" vertex="1">
+          <mxGeometry x="1050" y="10" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-68" value="製作品か&lt;br&gt;在庫品か" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-57">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-68" value="製作品か&lt;br&gt;在庫品か" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="z5nzv6D3eItYVxrzep7x-57" vertex="1">
           <mxGeometry x="890" y="80" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="支店・経理" style="swimlane;html=1;startSize=20;horizontal=0;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
-          <mxGeometry y="1590" width="2160" height="160" as="geometry" />
+          <mxGeometry y="1590" width="2260" height="160" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-30" value="伝票処理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
           <mxGeometry x="1200" y="30" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-69" value="伝票処理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
-          <mxGeometry x="1970" y="28" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-69" value="鳥井さんが自分でピッキングリストを作り、出庫し、配送している" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-69" value="部品サービス課が毎日、ピッキングリストを作り、出庫し、配送している" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
           <mxGeometry x="1010" y="-40" width="120" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-67" value="回答書が来た後対応する場合" style="swimlane;html=1;startSize=210;horizontal=0;direction=south;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="-650" width="800" height="2600" as="geometry" />
+        <mxCell id="z5nzv6D3eItYVxrzep7x-32" value="作業方法を判断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
+          <mxGeometry x="1466" y="220" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="z5nzv6D3eItYVxrzep7x-7" target="z5nzv6D3eItYVxrzep7x-34" edge="1">
+        <mxCell id="z5nzv6D3eItYVxrzep7x-34" value="修理作業準備" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
+          <mxGeometry x="1550" y="240" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z5nzv6D3eItYVxrzep7x-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="z5nzv6D3eItYVxrzep7x-65" source="z5nzv6D3eItYVxrzep7x-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1760" y="270" as="sourcePoint" />
+            <mxPoint x="2070" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z5nzv6D3eItYVxrzep7x-33" value="不具合か&lt;br&gt;どうかの判断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
+          <mxGeometry x="1603" y="230" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="z5nzv6D3eItYVxrzep7x-29" value="修理対応" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
+          <mxGeometry x="2070" y="240" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z5nzv6D3eItYVxrzep7x-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="z5nzv6D3eItYVxrzep7x-65" source="z5nzv6D3eItYVxrzep7x-29" target="z5nzv6D3eItYVxrzep7x-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2110" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z5nzv6D3eItYVxrzep7x-70" value="修理伝票作成" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
+          <mxGeometry x="2070" y="360" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z5nzv6D3eItYVxrzep7x-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="z5nzv6D3eItYVxrzep7x-65" source="z5nzv6D3eItYVxrzep7x-70" target="z5nzv6D3eItYVxrzep7x-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z5nzv6D3eItYVxrzep7x-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z5nzv6D3eItYVxrzep7x-70" target="z5nzv6D3eItYVxrzep7x-69" edge="1">
+        <mxCell id="z5nzv6D3eItYVxrzep7x-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="z5nzv6D3eItYVxrzep7x-65" source="z5nzv6D3eItYVxrzep7x-7" target="z5nzv6D3eItYVxrzep7x-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z5nzv6D3eItYVxrzep7x-7" value="修理作業準備&lt;br&gt;日程調整&lt;br&gt;道具調整&lt;br&gt;修理対応内容" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
+          <mxGeometry x="1550" y="800" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z5nzv6D3eItYVxrzep7x-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="z5nzv6D3eItYVxrzep7x-65" source="z5nzv6D3eItYVxrzep7x-8" target="z5nzv6D3eItYVxrzep7x-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1690" y="900" />
+              <mxPoint x="1590" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FLFnpMw3MmitnRIGWcoV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="z5nzv6D3eItYVxrzep7x-65" source="FLFnpMw3MmitnRIGWcoV-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1590" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FLFnpMw3MmitnRIGWcoV-2" value="不具合&lt;br&gt;回答受領" style="ellipse;whiteSpace=wrap;html=1;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
+          <mxGeometry x="1560" y="1070" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z5nzv6D3eItYVxrzep7x-8" value="代替品受け取り" style="rounded=0;whiteSpace=wrap;html=1;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
+          <mxGeometry x="1640" y="1125" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z5nzv6D3eItYVxrzep7x-69" value="伝票処理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
+          <mxGeometry x="2070" y="1618" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z5nzv6D3eItYVxrzep7x-67" value="回答書が来た後対応する場合" style="swimlane;html=1;startSize=210;horizontal=0;direction=south;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
+          <mxGeometry x="1480" width="780" height="2600" as="geometry" />
+        </mxCell>
+        <mxCell id="EkoDnE93ibO1WMqdiC40-55" value="SalesforceからMCframeは連動、&lt;br&gt;MCframeからは自動発注されるため、キャンセルがシステム上できない" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
+          <mxGeometry x="1020" y="2030" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-12" value="その場で対応できない場合、支店に帰ってからすぐ連絡書を作る" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=1;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-65">
+          <mxGeometry x="680" y="80" width="170" height="180" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-58" value="購買" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
-          <mxGeometry x="140" y="1350" width="2160" height="300" as="geometry" />
+          <mxGeometry x="140" y="1350" width="2260" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-24" value="品番登録" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-58">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-24" value="品番登録" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="z5nzv6D3eItYVxrzep7x-58" vertex="1">
           <mxGeometry x="600" y="130" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-55" value="SalesforceからMCframeは連動、&lt;br&gt;MCframeからは自動発注されるため、キャンセルができない" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-58">
-          <mxGeometry x="1030" y="20" width="120" height="200" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z5nzv6D3eItYVxrzep7x-37" target="z5nzv6D3eItYVxrzep7x-23" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -273,23 +291,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="z5nzv6D3eItYVxrzep7x-134" target="EkoDnE93ibO1WMqdiC40-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="320" y="600" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-134" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="290" y="2040" width="60" height="80" as="geometry" />
+          <mxGeometry x="190" y="2020" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-137" value="Salesforce" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="255" y="2130" width="130" height="20" as="geometry" />
+          <mxGeometry x="150" y="2130" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EkoDnE93ibO1WMqdiC40-5" target="z5nzv6D3eItYVxrzep7x-16">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="EkoDnE93ibO1WMqdiC40-5" target="z5nzv6D3eItYVxrzep7x-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z5nzv6D3eItYVxrzep7x-21" target="z5nzv6D3eItYVxrzep7x-37">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z5nzv6D3eItYVxrzep7x-21" target="z5nzv6D3eItYVxrzep7x-37" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1090" y="-250" />
@@ -297,10 +308,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z5nzv6D3eItYVxrzep7x-96" target="EkoDnE93ibO1WMqdiC40-19">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="EkoDnE93ibO1WMqdiC40-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="EkoDnE93ibO1WMqdiC40-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="70" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EkoDnE93ibO1WMqdiC40-18" target="EkoDnE93ibO1WMqdiC40-24">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EkoDnE93ibO1WMqdiC40-18" target="EkoDnE93ibO1WMqdiC40-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="670" y="1550" as="targetPoint" />
             <Array as="points">
@@ -308,34 +321,34 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="EkoDnE93ibO1WMqdiC40-27" target="EkoDnE93ibO1WMqdiC40-19">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;" parent="1" source="EkoDnE93ibO1WMqdiC40-27" target="EkoDnE93ibO1WMqdiC40-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-27" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-27" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="635" y="2040" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-28" value="FullWEB-PDM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-28" value="FullWEB-PDM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="600" y="2130" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-30" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-30" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="755" y="2040" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-31" value="MCframe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-31" value="MCframe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="720" y="2130" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="EkoDnE93ibO1WMqdiC40-24">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="EkoDnE93ibO1WMqdiC40-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="800" y="2040" as="sourcePoint" />
             <mxPoint x="795" y="1160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-34" value="製作業者" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1650" width="2160" height="300" as="geometry" />
+        <mxCell id="EkoDnE93ibO1WMqdiC40-34" value="製作業者" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="1650" width="2260" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-36" value="見積納期検討" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="EkoDnE93ibO1WMqdiC40-34">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-36" value="見積納期検討" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="EkoDnE93ibO1WMqdiC40-34" vertex="1">
           <mxGeometry x="730" y="104" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="EkoDnE93ibO1WMqdiC40-34" target="z5nzv6D3eItYVxrzep7x-132">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="EkoDnE93ibO1WMqdiC40-34" target="z5nzv6D3eItYVxrzep7x-132" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="906" y="390" as="sourcePoint" />
             <mxPoint x="846" y="-1050" as="targetPoint" />
@@ -345,13 +358,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-60" value="製作" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="EkoDnE93ibO1WMqdiC40-34">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-60" value="製作" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="EkoDnE93ibO1WMqdiC40-34" vertex="1">
           <mxGeometry x="1050" y="104" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EkoDnE93ibO1WMqdiC40-18" target="EkoDnE93ibO1WMqdiC40-36">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EkoDnE93ibO1WMqdiC40-18" target="EkoDnE93ibO1WMqdiC40-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EkoDnE93ibO1WMqdiC40-24" target="EkoDnE93ibO1WMqdiC40-41">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="EkoDnE93ibO1WMqdiC40-24" target="EkoDnE93ibO1WMqdiC40-41" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="860" y="1160" as="targetPoint" />
             <Array as="points">
@@ -359,13 +372,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-44" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-44" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="1015" y="2040" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-45" value="Salesforce" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-45" value="Salesforce" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="980" y="2130" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EkoDnE93ibO1WMqdiC40-36" target="EkoDnE93ibO1WMqdiC40-48">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="EkoDnE93ibO1WMqdiC40-36" target="EkoDnE93ibO1WMqdiC40-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="990" y="1280" as="targetPoint" />
             <Array as="points">
@@ -373,14 +386,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EkoDnE93ibO1WMqdiC40-41" target="z5nzv6D3eItYVxrzep7x-132">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="860" y="520" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EkoDnE93ibO1WMqdiC40-48" target="EkoDnE93ibO1WMqdiC40-51">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="EkoDnE93ibO1WMqdiC40-48" target="EkoDnE93ibO1WMqdiC40-51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="940" y="320" as="targetPoint" />
             <Array as="points">
@@ -389,20 +395,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EkoDnE93ibO1WMqdiC40-66" target="EkoDnE93ibO1WMqdiC40-60">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EkoDnE93ibO1WMqdiC40-66" target="EkoDnE93ibO1WMqdiC40-60" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1150" y="1793.3333333333333" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1158" y="1457" />
-              <mxPoint x="1170" y="1457" />
-              <mxPoint x="1170" y="1794" />
+              <mxPoint x="1158" y="1794" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-59" value="部品修理のための原価メンテナンスもサービス部品課で行っている。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=1;" vertex="1" parent="1">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-59" value="部品修理のための原価メンテナンスもサービス部品課で行っている。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="1130" width="120" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EkoDnE93ibO1WMqdiC40-60" target="z5nzv6D3eItYVxrzep7x-138">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="EkoDnE93ibO1WMqdiC40-60" target="z5nzv6D3eItYVxrzep7x-138" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1320" y="1280" as="targetPoint" />
             <Array as="points">
@@ -410,7 +414,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EkoDnE93ibO1WMqdiC40-64">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EkoDnE93ibO1WMqdiC40-64" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1300" y="-30" as="targetPoint" />
             <Array as="points">
@@ -419,13 +423,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EkoDnE93ibO1WMqdiC40-66" target="EkoDnE93ibO1WMqdiC40-64">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EkoDnE93ibO1WMqdiC40-66" target="EkoDnE93ibO1WMqdiC40-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-66" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-66" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1142" y="1140" width="16" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z5nzv6D3eItYVxrzep7x-132" target="EkoDnE93ibO1WMqdiC40-66">
+        <mxCell id="EkoDnE93ibO1WMqdiC40-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="z5nzv6D3eItYVxrzep7x-132" target="EkoDnE93ibO1WMqdiC40-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-23" value="As-Is-1の&lt;br&gt;顧客からのメール＋電話" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="553" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="EkoDnE93ibO1WMqdiC40-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dNxyNK7c78bLwvsdeMH5-23" target="EkoDnE93ibO1WMqdiC40-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="218.27099999999973" y="713" as="sourcePoint" />
+            <mxPoint x="1070" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5hORHY0Bwvzyk7AXpnxr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hORHY0Bwvzyk7AXpnxr-14" target="z5nzv6D3eItYVxrzep7x-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
