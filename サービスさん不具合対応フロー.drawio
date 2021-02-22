@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T06:06:37.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="Gap3oh39kaeFlRV6BZDr" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-22T07:29:10.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="kF5i6ePXK7sqews9Eeg7" version="14.4.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="3671" dy="2757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3947" dy="2934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,12 +12,6 @@
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-37" value="修理内容&lt;br&gt;質問対応" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
           <mxGeometry x="970" y="110" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5hORHY0Bwvzyk7AXpnxr-3" value="お客様の作業道具なので、基本即時対応" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0.08;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
-          <mxGeometry x="80" y="90" width="120" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="5hORHY0Bwvzyk7AXpnxr-20" value="Ass図面の子部品（未採番）だったりするので、新規品番の場合がある。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
-          <mxGeometry x="400" y="40" width="120" height="108" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="支店・営業" style="swimlane;html=1;startSize=20;horizontal=0;strokeColor=none;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="260" width="2260" height="670" as="geometry" />
@@ -35,23 +29,14 @@
             <mxPoint x="80" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5hORHY0Bwvzyk7AXpnxr-2" value="受け手は窓口の方だったり、営業さんだったり、サービスさんだったりする。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0.08;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
-          <mxGeometry x="110" y="45" width="120" height="135" as="geometry" />
-        </mxCell>
         <mxCell id="5hORHY0Bwvzyk7AXpnxr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="EkoDnE93ibO1WMqdiC40-41" target="z5nzv6D3eItYVxrzep7x-132">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EkoDnE93ibO1WMqdiC40-41" value="品番とMCframe登録連絡" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="680" y="100" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5hORHY0Bwvzyk7AXpnxr-9" value="品目マスタへの採番＋登録依頼は支店＋サービス＋購買でメール（CC)で情報共有" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
-          <mxGeometry x="520" y="235" width="190" height="200" as="geometry" />
-        </mxCell>
         <mxCell id="5hORHY0Bwvzyk7AXpnxr-14" value="As-Is-2の&lt;br&gt;ID：1&lt;br&gt;&lt;div&gt;部品内容の確&lt;span&gt;認&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="1620" y="190" width="140" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-56" value="支店でFullWEBを使いながら調べる場合もあるが、&lt;br&gt;そのまま写真を送る場合もある。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=1;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
-          <mxGeometry x="400" y="40" width="120" height="108" as="geometry" />
         </mxCell>
         <mxCell id="FLFnpMw3MmitnRIGWcoV-2" value="As-Is-3&lt;br&gt;ID:15&lt;br&gt;不具合&lt;br&gt;回答書受領" style="ellipse;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="1480" y="80" width="140" height="100" as="geometry" />
@@ -137,12 +122,6 @@
             <mxPoint x="1140" y="350" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-9" value="現地にサービスマンが駆け付けるだけでなく、&lt;br&gt;代理店に持ち込んだり&lt;br&gt;現車をお客様が支店にもってきたりとパターンがある" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
-          <mxGeometry x="80" y="390" width="270" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-14" value="原因は不具合もあれば、メンテナンス不足もある。判断はサービスマンと営業さんが下す。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
-          <mxGeometry x="70" y="-20" width="170" height="180" as="geometry" />
-        </mxCell>
         <mxCell id="EkoDnE93ibO1WMqdiC40-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="z5nzv6D3eItYVxrzep7x-14" source="EkoDnE93ibO1WMqdiC40-51" target="z5nzv6D3eItYVxrzep7x-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -153,9 +132,6 @@
         </mxCell>
         <mxCell id="EkoDnE93ibO1WMqdiC40-51" value="日程調整" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
           <mxGeometry x="640" y="260" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-13" value="支店・サービス、内容によったら、技術、品証、部品サービス課の鳥井さんにかけてくることがある。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=1;" parent="z5nzv6D3eItYVxrzep7x-14" vertex="1">
-          <mxGeometry x="780" y="350" width="170" height="180" as="geometry" />
         </mxCell>
         <mxCell id="5hORHY0Bwvzyk7AXpnxr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="z5nzv6D3eItYVxrzep7x-14" source="5hORHY0Bwvzyk7AXpnxr-6" target="5hORHY0Bwvzyk7AXpnxr-11">
           <mxGeometry relative="1" as="geometry" />
@@ -201,9 +177,6 @@
         <mxCell id="EkoDnE93ibO1WMqdiC40-48" value="納期連絡" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="z5nzv6D3eItYVxrzep7x-57" vertex="1">
           <mxGeometry x="800" y="10" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-58" value="支店から連絡があった修理・不具合部品は鳥井さんがなぜか見積、納期の確認窓口になっている" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" parent="z5nzv6D3eItYVxrzep7x-57" vertex="1">
-          <mxGeometry x="580" y="100" width="120" height="108" as="geometry" />
-        </mxCell>
         <mxCell id="EkoDnE93ibO1WMqdiC40-64" value="ピッキング&lt;br&gt;配送" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="z5nzv6D3eItYVxrzep7x-57" vertex="1">
           <mxGeometry x="1050" y="10" width="80" height="80" as="geometry" />
         </mxCell>
@@ -212,9 +185,6 @@
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="支店・経理" style="swimlane;html=1;startSize=20;horizontal=0;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
           <mxGeometry y="1590" width="2260" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-69" value="部品サービス課が毎日、ピッキングリストを作り、出庫し、配送している" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
-          <mxGeometry x="1010" y="-40" width="120" height="200" as="geometry" />
         </mxCell>
         <mxCell id="5hORHY0Bwvzyk7AXpnxr-23" value="&lt;span&gt;As-Is-4の&lt;/span&gt;&lt;br&gt;&lt;span&gt;ID：1&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;保証請求伝票&lt;/div&gt;&lt;div&gt;の作成&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
           <mxGeometry x="1180" y="30" width="120" height="80" as="geometry" />
@@ -274,12 +244,6 @@
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-67" value="回答書が来た後対応する場合" style="swimlane;html=1;startSize=210;horizontal=0;direction=south;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
           <mxGeometry x="1480" width="780" height="2600" as="geometry" />
-        </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-55" value="SalesforceからMCframeは連動、&lt;br&gt;MCframeからは自動発注されるため、キャンセルがシステム上できない" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=0;" parent="z5nzv6D3eItYVxrzep7x-65" vertex="1">
-          <mxGeometry x="1020" y="2030" width="120" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="5hORHY0Bwvzyk7AXpnxr-12" value="その場で対応できない場合、支店に帰ってからすぐ連絡書を作る" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=1;" vertex="1" parent="z5nzv6D3eItYVxrzep7x-65">
-          <mxGeometry x="680" y="80" width="170" height="180" as="geometry" />
         </mxCell>
         <mxCell id="z5nzv6D3eItYVxrzep7x-58" value="購買" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="1350" width="2260" height="300" as="geometry" />
@@ -408,9 +372,6 @@
               <mxPoint x="1158" y="1794" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="EkoDnE93ibO1WMqdiC40-59" value="部品修理のための原価メンテナンスもサービス部品課で行っている。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;position2=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="1130" width="120" height="108" as="geometry" />
         </mxCell>
         <mxCell id="EkoDnE93ibO1WMqdiC40-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="EkoDnE93ibO1WMqdiC40-60" edge="1">
           <mxGeometry relative="1" as="geometry">
