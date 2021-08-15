@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-15T22:23:08.429Z" agent="5.0 (Windows)" etag="oi2N6Z1betWZ7e8I0FUP" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-15T22:39:03.830Z" agent="5.0 (Windows)" etag="XyzVVyTrx-c80_h7hJDr" version="14.9.6" type="github">
   <diagram name="Page-1" id="5d7acffa-a066-3a61-03fe-96351882024d">
-    <mxGraphModel dx="1740" dy="2074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1156" dy="2064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -140,7 +140,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-14" value="値代入" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="1100" y="4" width="170" height="650" as="geometry" />
+          <mxGeometry x="1100" y="4" width="170" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-33" value="整理番号" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
           <mxGeometry y="26" width="170" height="24" as="geometry" />
@@ -220,8 +220,62 @@
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-59" value="クレーム可否" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
           <mxGeometry y="624" width="170" height="24" as="geometry" />
         </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-113" value="不受理" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="648" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-114" value="情報配信" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="672" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-115" value="差し戻し・情報不足" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="696" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-116" value="重要度ランク" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="720" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-117" value="受付担当" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="744" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-118" value="受付確認" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="768" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-119" value="配信先部署" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="792" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-120" value="回答期限" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="816" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-121" value="一次回答日" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="840" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-122" value="再発防止回答日" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="864" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-123" value="再発防止回答日" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="888" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-124" value="配信日" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="912" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-125" value="回答担当者" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="936" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-126" value="再発防止入力予定日" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="960" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-127" value="不具合の原因" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="984" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-128" value="対策案" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="1008" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-129" value="再発防止策" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="1032" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-130" value="回答確認者" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="1056" width="170" height="24" as="geometry" />
+        </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-16" value="FullWEB-PDM" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="900" width="90" height="80" as="geometry" />
+          <mxGeometry x="1350" y="1100" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PpEa1YJVBQYr_3x_0rxC-17" target="21ea969265ad0168-23">
           <mxGeometry relative="1" as="geometry" />
@@ -404,6 +458,19 @@
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-109" value="Today" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-108">
           <mxGeometry y="40" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.694;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PpEa1YJVBQYr_3x_0rxC-106" target="PpEa1YJVBQYr_3x_0rxC-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="-20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1280" y="66" />
+              <mxPoint x="1280" y="-170" />
+              <mxPoint x="1300" y="-170" />
+              <mxPoint x="1300" y="-160" />
+              <mxPoint x="1409" y="-160" />
+              <mxPoint x="1409" y="-70" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
