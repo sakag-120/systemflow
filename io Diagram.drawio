@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-15T21:41:23.714Z" agent="5.0 (Windows)" etag="xzkmoj2qOAg5NOw-9Ax-" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-15T22:18:25.555Z" agent="5.0 (Windows)" etag="zvp8ym9IqI2ei_--Upv3" version="14.9.6" type="github">
   <diagram name="Page-1" id="5d7acffa-a066-3a61-03fe-96351882024d">
-    <mxGraphModel dx="1243" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1740" dy="2074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -140,82 +140,85 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-14" value="値代入" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="1100" y="4" width="170" height="636" as="geometry" />
+          <mxGeometry x="1100" y="4" width="170" height="650" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-33" value="整理番号" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
           <mxGeometry y="26" width="170" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="PpEa1YJVBQYr_3x_0rxC-36" value="事業所" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-106" value="整理番号" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
           <mxGeometry y="50" width="170" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="PpEa1YJVBQYr_3x_0rxC-37" value="事業所長" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-36" value="事業所" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
           <mxGeometry y="74" width="170" height="24" as="geometry" />
         </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-37" value="事業所長" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+          <mxGeometry y="98" width="170" height="22" as="geometry" />
+        </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-38" value="担当者" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="98" width="170" height="24" as="geometry" />
+          <mxGeometry y="120" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-39" value="調査員" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="122" width="170" height="24" as="geometry" />
+          <mxGeometry y="144" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-40" value="発行日" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="146" width="170" height="24" as="geometry" />
+          <mxGeometry y="168" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-41" value="架装型式" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="170" width="170" height="24" as="geometry" />
+          <mxGeometry y="192" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-42" value="受注No." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="194" width="170" height="24" as="geometry" />
+          <mxGeometry y="216" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-43" value="引当先" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="218" width="170" height="24" as="geometry" />
+          <mxGeometry y="240" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-44" value="車種" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="242" width="170" height="24" as="geometry" />
+          <mxGeometry y="264" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-45" value="車番" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="266" width="170" height="24" as="geometry" />
+          <mxGeometry y="288" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-46" value="納入日" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="290" width="170" height="24" as="geometry" />
+          <mxGeometry y="312" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-47" value="不具合発生日" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="314" width="170" height="24" as="geometry" />
+          <mxGeometry y="336" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-48" value="場所分類・仕様" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="338" width="170" height="24" as="geometry" />
+          <mxGeometry y="360" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-49" value="場所分類・大" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="362" width="170" height="24" as="geometry" />
+          <mxGeometry y="384" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-50" value="場所分類・中" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="386" width="170" height="24" as="geometry" />
+          <mxGeometry y="408" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-51" value="場所分類・小" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="410" width="170" height="24" as="geometry" />
+          <mxGeometry y="432" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-52" value="場所分類・補足" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="434" width="170" height="24" as="geometry" />
+          <mxGeometry y="456" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-53" value="症状分類１" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="458" width="170" height="24" as="geometry" />
+          <mxGeometry y="480" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-54" value="症状分類２" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="482" width="170" height="24" as="geometry" />
+          <mxGeometry y="504" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-55" value="症状・補足" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="506" width="170" height="24" as="geometry" />
+          <mxGeometry y="528" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-56" value="分類・処置" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="530" width="170" height="24" as="geometry" />
+          <mxGeometry y="552" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-57" value="コピー元_整理番号" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="554" width="170" height="24" as="geometry" />
+          <mxGeometry y="576" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-58" value="追加質問内容" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="578" width="170" height="24" as="geometry" />
+          <mxGeometry y="600" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-59" value="クレーム可否" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
-          <mxGeometry y="602" width="170" height="24" as="geometry" />
+          <mxGeometry y="624" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-16" value="FullWEB-PDM" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1140" y="900" width="90" height="80" as="geometry" />
@@ -389,6 +392,11 @@
               <mxPoint x="830" y="269" />
               <mxPoint x="830" y="234" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.059;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PpEa1YJVBQYr_3x_0rxC-94" target="PpEa1YJVBQYr_3x_0rxC-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
