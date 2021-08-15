@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-15T22:18:25.555Z" agent="5.0 (Windows)" etag="zvp8ym9IqI2ei_--Upv3" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-15T22:23:08.429Z" agent="5.0 (Windows)" etag="oi2N6Z1betWZ7e8I0FUP" version="14.9.6" type="github">
   <diagram name="Page-1" id="5d7acffa-a066-3a61-03fe-96351882024d">
     <mxGraphModel dx="1740" dy="2074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-33" value="整理番号" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
           <mxGeometry y="26" width="170" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="PpEa1YJVBQYr_3x_0rxC-106" value="整理番号" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-106" value="&lt;table width=&quot;185&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;xl65&quot; style=&quot;height: 13.5pt ; width: 139pt&quot; width=&quot;185&quot; height=&quot;18&quot;&gt;進捗ステータス&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
           <mxGeometry y="50" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-36" value="事業所" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-14">
@@ -305,7 +305,7 @@
           <mxGeometry x="1070" y="-240" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-79" value="今日の日付関数" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="1040" y="-80" width="160" height="60" as="geometry" />
+          <mxGeometry x="1041" y="-80" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-80" value="Today" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-79">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -398,6 +398,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1080" y="310" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-108" value="ステータス変更" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="1329" y="-70" width="160" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-109" value="Today" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-108">
+          <mxGeometry y="40" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
