@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-16T05:20:11.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="3ZrbvfI0_y7tWKSzbSN-" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-16T07:53:49.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="00U7whuKkp5MBeIbeJ9R" version="14.9.6" type="github">
   <diagram name="Page-1" id="5d7acffa-a066-3a61-03fe-96351882024d">
-    <mxGraphModel dx="3566" dy="2867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1997" dy="2113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,7 +47,7 @@
           <mxGeometry x="1010" y="570" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="21ea969265ad0168-6" value="Salesforce 新規連絡" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#99FFFF;" parent="1" vertex="1">
-          <mxGeometry x="160" y="74" width="160" height="156" as="geometry">
+          <mxGeometry x="160" y="70" width="160" height="160" as="geometry">
             <mxRectangle x="160" y="74" width="150" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -159,7 +159,7 @@
         <mxCell id="MuNjfW3-yukMuPoROdSI-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PpEa1YJVBQYr_3x_0rxC-14" target="PpEa1YJVBQYr_3x_0rxC-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PpEa1YJVBQYr_3x_0rxC-14" value="値代入" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-14" value="&lt;p style=&quot;line-height: normal ; margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; margin-right: 0in ; text-indent: 0in ; text-align: left ; direction: ltr ; unicode-bidi: embed ; word-break: normal&quot;&gt;&lt;span style=&quot;font-size: 18pt ; font-family: &amp;#34;ｍｓ ｐゴシック&amp;#34;&quot;&gt;値代入関数&lt;/span&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="1140" y="83" width="170" height="1584" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-33" value="整理番号" style="text;whiteSpace=wrap;html=1;" parent="PpEa1YJVBQYr_3x_0rxC-14" vertex="1">
@@ -556,16 +556,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PpEa1YJVBQYr_3x_0rxC-108" value="ステータス変更関数" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;arcSize=12;" parent="1" vertex="1">
+        <mxCell id="PpEa1YJVBQYr_3x_0rxC-108" value="ステータス変更関数" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=10;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;arcSize=12;" parent="1" vertex="1">
           <mxGeometry x="1340" y="-80" width="160" height="92" as="geometry" />
         </mxCell>
         <mxCell id="PpEa1YJVBQYr_3x_0rxC-109" value="button.Tetxt" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="PpEa1YJVBQYr_3x_0rxC-108" vertex="1">
-          <mxGeometry y="40" width="160" height="26" as="geometry" />
+          <mxGeometry y="10" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="MuNjfW3-yukMuPoROdSI-95" value="progress" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PpEa1YJVBQYr_3x_0rxC-108">
-          <mxGeometry y="66" width="160" height="26" as="geometry" />
+          <mxGeometry y="36" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="MuNjfW3-yukMuPoROdSI-23" value="TextBox表示更新" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="MuNjfW3-yukMuPoROdSI-23" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;text-align: left ; text-indent: 0in ; font-size: 18pt ; font-family: &amp;#34;times new roman&amp;#34;&quot;&gt;TextBox&lt;/span&gt;&lt;span style=&quot;text-align: left ; text-indent: 0in ; font-size: 18pt ; font-family: &amp;#34;ｍｓ ｐゴシック&amp;#34;&quot;&gt;表示更新関数&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="1600" y="83" width="170" height="1584" as="geometry" />
         </mxCell>
         <mxCell id="MuNjfW3-yukMuPoROdSI-24" value="整理番号" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="MuNjfW3-yukMuPoROdSI-23">
