@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-21T08:28:03.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="76TkEIsghqskpydVGPBM" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-30T10:02:24.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="I6LZAUXGq77utmGf7ue3" version="14.9.8" type="github">
   <diagram name="Page-1" id="5d7acffa-a066-3a61-03fe-96351882024d">
-    <mxGraphModel dx="2236" dy="3500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3436" dy="2989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -944,12 +944,14 @@
         <mxCell id="MuNjfW3-yukMuPoROdSI-169" value="発行" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.shaded_button;dx=10;fillColor=#E6E6E6;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1170" y="-240" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MuNjfW3-yukMuPoROdSI-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MuNjfW3-yukMuPoROdSI-174" target="MuNjfW3-yukMuPoROdSI-162" edge="1">
+        <mxCell id="MuNjfW3-yukMuPoROdSI-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="MuNjfW3-yukMuPoROdSI-25" target="MuNjfW3-yukMuPoROdSI-162" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="770" y="-15" />
-              <mxPoint x="770" y="120" />
-              <mxPoint x="410" y="120" />
+              <mxPoint x="1720" y="127" />
+              <mxPoint x="1720" y="40" />
+              <mxPoint x="770" y="40" />
+              <mxPoint x="770" y="60" />
+              <mxPoint x="410" y="60" />
               <mxPoint x="410" y="760" />
             </Array>
           </mxGeometry>
@@ -1023,6 +1025,25 @@
               <mxPoint x="1390" y="72" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="K2hf-NPwadG62fUVzGMZ-4" value="納車前・後を認識し、&lt;br&gt;取引通知書と保伝画面を切り替えられる" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="660" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="K2hf-NPwadG62fUVzGMZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K2hf-NPwadG62fUVzGMZ-5" target="PpEa1YJVBQYr_3x_0rxC-109">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1730" y="-70" />
+              <mxPoint x="1730" y="-130" />
+              <mxPoint x="1320" y="-130" />
+              <mxPoint x="1320" y="-57" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K2hf-NPwadG62fUVzGMZ-5" value="必須入力確認関数" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="1550" y="-100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K2hf-NPwadG62fUVzGMZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="PpEa1YJVBQYr_3x_0rxC-109" target="K2hf-NPwadG62fUVzGMZ-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
